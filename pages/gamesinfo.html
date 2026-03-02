@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Jogo - Mundo Gamer</title>
+    <!-- Vinculando o seu arquivo CSS -->
+    <link rel="stylesheet" href="../assets/css/HomeCustom.css">
+    <style>
+        .rating-badge {
+            background-color: var(--blue-600);
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 24px;
+            font-weight: 800;
+        }
+        .info-grid-item {
+            border-bottom: 1px solid var(--gray-200);
+            padding: 12px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .requirement-card {
+            background: var(--gray-100);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--gray-200);
+        }
+        /* Ajuste específico para a galeria lateral */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: 1fr 200px;
+            gap: 16px;
+        }
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+            .screenshots-stack {
+                flex-direction: row !important;
+                overflow-x: auto;
+            }
+            .screenshots-stack > div {
+                min-width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Header / Navegação -->
+    <header class="py-6 border-b border-gray-200">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold uppercase tracking-tighter">Gamer<span class="text-blue-600">Central</span></a>
+            <a href="noticias.html" class="text-sm font-bold hover:text-blue-600">Voltar para Notícias</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+
+        
+        <!-- Hero Section do Jogo -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            
+            <!-- Galeria de Imagens e Vídeo -->
+            <div class="lg:col-span-8">
+                <div class="gallery-grid">
+                    <!-- Imagem/Vídeo Grande -->
+                    <div class="wireframe-box aspect-video rounded-2xl shadow-lg">
+                        <span class="text-2xl font-bold">[Trailer Oficial / Gameplay]</span>
+                    </div>
+                    
+                    <!-- Coluna de Screenshots Laterais -->
+                    <div class="screenshots-stack flex flex-col gap-4">
+                        <div class="wireframe-box flex-1 aspect-video rounded-lg">
+                            <span class="text-xs">[Screenshot 1]</span>
+                        </div>
+                        <div class="wireframe-box flex-1 aspect-video rounded-lg">
+                            <span class="text-xs">[Screenshot 2]</span>
+                        </div>
+                        <div class="wireframe-box flex-1 aspect-video rounded-lg">
+                            <span class="text-xs">[Screenshot 3]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar de Informações Rápidas -->
+            <div class="lg:col-span-4 space-y-6">
+                <div class="flex items-center justify-between">
+                    <h1 class="text-4xl font-extrabold tracking-tighter">Cyber Nexus 2077</h1>
+                    <div class="rating-badge text-white">9.5</div>
+                </div>
+                
+                <p class="text-gray-600">
+                    Um RPG de ação em mundo aberto ambientado numa metrópole decadente onde o poder, o glamour e as modificações corporais são uma obsessão.
+                </p>
+
+                <div class="flex flex-wrap gap-2">
+                    <span id="tags-container"></span>
+                </div>
+
+                <div class="space-y-1">
+                    <div class="info-grid-item">
+                        <span class="text-gray-500">Desenvolvedora</span>
+                        <span class="font-bold">NeoStudios</span>
+                    </div>
+                    <div class="info-grid-item">
+                        <span class="text-gray-500">Editora</span>
+                        <span class="font-bold">Global Games</span>
+                    </div>
+                    <div class="info-grid-item">
+                        <span class="text-gray-500">Lançamento</span>
+                        <span class="font-bold">15 Março 2026</span>
+                    </div>
+                    <div class="info-grid-item">
+                        <span class="text-gray-500">Plataformas</span>
+                        <span class="font-bold">PC, PS5, XSX</span>
+                    </div>
+                </div>
+
+                <button class="bg-black w-full py-4 rounded-xl font-bold text-lg uppercase tracking-widest hover:scale-[1.02] transition-transform">
+                    Comprar Agora
+                </button>
+            </div>
+        </div>
+
+        <!-- Secção de Detalhes Técnicos / Requisitos -->
+        <section class="mt-20">
+            <h2 class="text-3xl font-bold mb-8 border-l-4 border-blue-600 pl-4">Sinopse</h2>
+            <div class="max-w-3xl space-y-4 text-gray-600 leading-relaxed">
+                <p>
+                    Assume o papel de V, um mercenário fora da lei atrás de um implante único que carrega a chave para a imortalidade. Podes personalizar o teu software cibernético, o conjunto de habilidades e o estilo de jogo, e explorar uma vasta cidade onde as decisões que tomas definem a história e o mundo ao teu redor.
+                </p>
+                <p>
+                    Night City é densa, vertical e cheia de perigos. Desde os arranha-céus das megacorporações até às ruas perigosas dominadas por gangues, cada canto esconde um segredo ou uma oportunidade de lucro.
+                </p>
+            </div>
+        </section>
+
+        <section class="mt-20">
+            <h2 class="text-3xl font-bold mb-8 border-l-4 border-blue-600 pl-4">Requisitos de Sistema</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Mínimos -->
+                <div class="requirement-card">
+                    <h3 class="text-blue-600 font-bold mb-4 uppercase">Mínimos</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li><strong>SO:</strong> Windows 10 64-bit</li>
+                        <li><strong>Processador:</strong> Intel Core i5-3570K / AMD FX-8310</li>
+                        <li><strong>Memória:</strong> 8 GB RAM</li>
+                        <li><strong>Placa Gráfica:</strong> GTX 970 / Radeon RX 470</li>
+                        <li><strong>Espaço:</strong> 70 GB SSD</li>
+                    </ul>
+                </div>
+
+                <!-- Recomendados -->
+                <div class="requirement-card border-blue-600">
+                    <h3 class="text-blue-600 font-bold mb-4 uppercase">Recomendados</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li><strong>SO:</strong> Windows 11 64-bit</li>
+                        <li><strong>Processador:</strong> Intel Core i7-12700 / Ryzen 7 5800X</li>
+                        <li><strong>Memória:</strong> 16 GB RAM</li>
+                        <li><strong>Placa Gráfica:</strong> RTX 3080 / Radeon RX 6800 XT</li>
+                        <li><strong>Espaço:</strong> 70 GB NVMe SSD</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-100 py-12 mt-20 border-t border-gray-200">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-500 text-sm">© 2026 GamerCentral. As imagens são meramente ilustrativas (Wireframe).</p>
+        </div>
+    </footer>
+        <script src="../JS/games.js"></script>
+
+</body>
+</html>

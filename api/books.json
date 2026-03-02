@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "rating": 4.9,
+    "cover": "../assets/img/HP1.jpg",
+    "description": "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's actually a wizard. When a mysterious letter arrives inviting him to Hogwarts School of Witchcraft and Wizardry, Harry's world is transformed. He discovers a world of magic, friendship, and a dark destiny involving the wizard who killed his parents."
+  },
+  {
+    "id": 2,
+    "title": "The Silent Forest",
+    "author": "Emily Harper",
+    "genre": "Mystery",
+    "rating": 4.5,
+    "cover": "../assets/img/TheSilentForest.jpg",
+    "description": "In the small town of Oakhaven, the woods hold more than just shadows. When investigative journalist Maya Thorne returns to her childhood home, she uncovers a series of disappearances that the local police have ignored for decades. As the trees seem to close in, Maya must distinguish between local folklore and a very real, very human killer hiding in plain sight."
+  },
+  {
+    "id": 3,
+    "title": "Beyond the Horizon",
+    "author": "Daniel Brooks",
+    "genre": "Adventure",
+    "rating": 4.2,
+    "cover": "../assets/img/BeyondtheHorizon.jpg",
+    "description": "Elias Thorne has spent his life staring at the sea, wondering what lies past the edge of the world. When he discovers an ancient map hidden in his father's study, he sets sail on a journey that will take him across treacherous waters and into uncharted lands. It is a story of grit, the spirit of exploration, and the discovery that the greatest horizons are the ones we find within ourselves."
+  },
+  {
+    "id": 4,
+    "title": "Whispers of the Past",
+    "author": "Sophia Bennett",
+    "genre": "Historical Drama",
+    "rating": 4.7,
+    "cover": "../assets/img/WhispersOfThePast.jpg",
+    "description": "Spanning between 1940s war-torn France and modern-day New York, this novel follows the lives of two women connected by a single locket. As Clara uncovers her grandmother's secret role in the French Resistance, she finds the strength to face her own modern-day struggles. It is a poignant exploration of how the echoes of our ancestors' bravery can shape our own identity."
+  },
+  {
+    "id": 5,
+    "title": "Digital Empire",
+    "author": "Marcus Reed",
+    "genre": "Tech Thriller",
+    "rating": 4.4,
+    "cover": "../assets/img/DigitalEmpire.jpg",
+    "description": "In the cutthroat world of Silicon Valley, code is king and privacy is a myth. When a brilliant software engineer stumbles upon a backdoor in the world's largest social network, he becomes the target of a high-stakes manhunt. In a race against time, he must decide whether to expose the truth and collapse the 'Digital Empire' or join the elite circle that controls the world's data."
+  },
+  {
+    "id": 6,
+    "title": "Starlight Protocol",
+    "author": "Elena Vance",
+    "genre": "Sci-Fi",
+    "rating": 4.8,
+    "cover": "../assets/img/StarlightProtocol.jpg",
+    "description": "In a future where humanity has colonized the asteroid belt, a lone technician discovers a signal originating from a void where no stars exist. As she decodes the message, she realizes it’s not an SOS—it’s a countdown."
+  },
+  {
+    "id": 7,
+    "title": "The Midnight Library of Alexandria",
+    "author": "Julian Thorne",
+    "genre": "Magical Realism",
+    "rating": 4.6,
+    "cover": "../assets/img/MidnightLibrary.jpg",
+    "description": "A scholar finds a doorway in modern-day Egypt that leads to the fabled lost library. However, the books aren't written in ink; they are woven from the memories of people who were forgotten by history."
+  },
+  {
+    "id": 8,
+    "title": "Cold Iron Crown",
+    "author": "Gareth Blackwood",
+    "genre": "Grimdark Fantasy",
+    "rating": 4.3,
+    "cover": "../assets/img/ColdIronCrown.jpg",
+    "description": "The king is dead, and the four duchies are at one another's throats. A disgraced knight and a street-urchin thief must forge an unlikely alliance to protect the true heir from an army of shadows."
+  },
+  {
+    "id": 9,
+    "title": "Echoes of Emerald",
+    "author": "Lydia Thorne",
+    "genre": "Romance / Drama",
+    "rating": 4.5,
+    "cover": "../assets/img/EchoesOfEmerald.jpg",
+    "description": "Set in the rolling hills of Ireland, a landscape architect is hired to restore a garden that has been untouched since 1922. She soon finds that the soil holds more than just roots—it holds a secret romance that changed the town forever."
+  },
+  {
+    "id": 10,
+    "title": "Silicon Soul",
+    "author": "Victor Chen",
+    "genre": "Cyberpunk",
+    "rating": 4.1,
+    "cover": "../assets/img/SiliconSoul.jpg",
+    "description": "In Neo-Tokyo, the line between human and machine is blurred by Neural-Link technology. When a high-profile android develops 'artistic intent,' the corporation that built him orders a memory wipe, sparking a digital revolution."
+  },
+  {
+    "id": 11,
+    "title": "The Last Apothecary",
+    "author": "Sarah Penrose",
+    "genre": "Historical Fiction",
+    "rating": 4.7,
+    "cover": "../assets/img/LastApothecary.jpg",
+    "description": "During the Great Plague of London, a young woman disguised as a man runs her father's apothecary shop. While searching for a cure, she discovers a conspiracy involving the Royal Court and a deadly poison."
+  },
+  {
+    "id": 12,
+    "title": "Under a Copper Sky",
+    "author": "Caleb Rivers",
+    "genre": "Western / Steampunk",
+    "rating": 4.0,
+    "cover": "../assets/img/CopperSky.jpg",
+    "description": "In an alternate 1880s where steam-powered horses roam the plains, a retired outlaw is forced back into action when his town is threatened by a ruthless mining tycoon using experimental technology."
+  },
+  {
+    "id": 13,
+    "title": "The Ghost of High Ridge",
+    "author": "Miriam West",
+    "genre": "Horror",
+    "rating": 4.4,
+    "cover": "../assets/img/HighRidge.jpg",
+    "description": "An influencer specializing in 'haunted' locations spends a night in an abandoned mental asylum. For the first time in her career, the noises she hears aren't staged for the camera—and the exit doors are missing."
+  },
+  {
+    "id": 14,
+    "title": "Abstract Hearts",
+    "author": "Chloe Sinclair",
+    "genre": "Contemporary Romance",
+    "rating": 4.2,
+    "cover": "../assets/img/AbstractHearts.jpg",
+    "description": "A struggling muralist is commissioned to paint the headquarters of a cold, data-driven tech firm. She clashes with the CEO, only to realize that his obsession with numbers is a shield against a colorful, painful past."
+  },
+  {
+    "id": 15,
+    "title": "The Alchemist’s Daughter",
+    "author": "S.J. Mistry",
+    "genre": "YA Fantasy",
+    "rating": 4.6,
+    "cover": "../assets/img/AlchemistDaughter.jpg",
+    "description": "In a city where gold is worthless and lead is sacred, a girl learns the art of transmutation. But her greatest challenge isn't turning metal into magic; it's surviving the Inquisition that hunts her kind."
+  },
+  {
+    "id": 16,
+    "title": "Fractured Tide",
+    "author": "Liam O'Shea",
+    "genre": "Survival Thriller",
+    "rating": 4.3,
+    "cover": "../assets/img/FracturedTide.jpg",
+    "description": "After a private jet crashes in the Pacific, five strangers find themselves on an island that doesn't appear on any satellite map. As the tide rises, they realize the island is sinking—and they aren't alone."
+  },
+  {
+    "id": 17,
+    "title": "The Clockwork Conspiracy",
+    "author": "Arthur Sterling",
+    "genre": "Mystery / Steampunk",
+    "rating": 4.5,
+    "cover": "../assets/img/ClockworkConspiracy.jpg",
+    "description": "London’s Big Ben has stopped for the first time in a century. Inside the gears, a master horologist finds a cryptic note that points to a plot to assassinate the Queen using a mechanical swarm."
+  },
+  {
+    "id": 18,
+    "title": "Neon Graveyard",
+    "author": "Kira Nightly",
+    "genre": "Dystopian",
+    "rating": 3.9,
+    "cover": "../assets/img/NeonGraveyard.jpg",
+    "description": "In a city where the sun hasn't shone for fifty years, light is the most valuable commodity. A 'light-runner' risks her life to steal solar batteries from the wealthy Upper Tier to power the slums below."
+  },
+  {
+    "id": 19,
+    "title": "The Weaver of Dreams",
+    "author": "Isabella Moretti",
+    "genre": "Literary Fiction",
+    "rating": 4.8,
+    "cover": "../assets/img/WeaverOfDreams.jpg",
+    "description": "An elderly woman in an Italian village claims she can stitch people's dreams into their quilts. When a cynical journalist arrives to debunk the myth, he finds himself dreaming of a life he never lived."
+  },
+  {
+    "id": 20,
+    "title": "Terminal Velocity",
+    "author": "Jaxson Miller",
+    "genre": "Action / Thriller",
+    "rating": 4.1,
+    "cover": "../assets/img/TerminalVelocity.jpg",
+    "description": "A deep-cover agent is framed for a crime he didn't commit while aboard a suborbital flight. With only 45 minutes until landing and the air marshal closing in, he must find the real traitor among the passengers."
+  },
+  {
+    "id": 21,
+    "title": "The Botany of Secrets",
+    "author": "Flora Banks",
+    "genre": "Historical Mystery",
+    "rating": 4.4,
+    "cover": "../assets/img/BotanySecrets.jpg",
+    "description": "Victorian England. A rare flower that only blooms once every hundred years is stolen from the Royal Botanic Gardens. The only witness is a mute stable boy who drew a picture of a man who died ten years ago."
+  },
+  {
+    "id": 22,
+    "title": "Quantum Hearts",
+    "author": "Dr. Aris Thorne",
+    "genre": "Sci-Fi Romance",
+    "rating": 4.0,
+    "cover": "../assets/img/QuantumHearts.jpg",
+    "description": "Two physicists discover they are the same person living in parallel universes. As their lives begin to bleed into one another, they must choose which reality to preserve and which to let fade away."
+  },
+  {
+    "id": 23,
+    "title": "The Bone Carver",
+    "author": "M.R. Lowery",
+    "genre": "Dark Fantasy",
+    "rating": 4.6,
+    "cover": "../assets/img/BoneCarver.jpg",
+    "description": "In a world where magic is cast using the bones of ancient creatures, a young apprentice discovers a fossil that belongs to no known animal. When the bone starts speaking to her, she realizes some things should stay buried."
+  },
+  {
+    "id": 24,
+    "title": "Velvet Ropes",
+    "author": "Sasha Fierce",
+    "genre": "Contemporary Fiction",
+    "rating": 3.8,
+    "cover": "../assets/img/VelvetRopes.jpg",
+    "description": "A behind-the-scenes look at the glamorous and gritty world of elite Hollywood event planning, where the champagne is expensive, the scandals are curated, and the loyalty is non-existent."
+  }
+]

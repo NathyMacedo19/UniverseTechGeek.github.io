@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias - Mundo Gamer</title>
+    <!-- O caminho deve corresponder à sua estrutura de pastas -->
+    <link rel="stylesheet" href="../assets/css/HomeCustom.css">
+    <style>
+        /* Ajustes específicos para a página de notícias que complementam o seu CSS */
+        .news-badge {
+            background-color: var(--blue-600);
+            color: white;
+            padding: 4px 12px;
+            font-size: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+        }
+        .hover-card:hover .wireframe-box {
+            border-color: var(--red-destaque);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Simples -->
+    <header class="border-b border-gray-200 py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold tracking-tighter uppercase">Universe Tech<span class="text-blue-600">Geek</span></h1>
+            <nav class="space-x-8 hidden md:flex">
+                <a href="books.html" class="text-sm font-bold hover:text-blue-600 uppercase">Books</a>
+                <a href="games.html" class="text-sm font-bold hover:text-blue-600 uppercase">Games</a>
+                <a href="movies.html" class="text-sm font-bold hover:text-blue-600 uppercase">Movies</a>
+                <a href="tv.html" class="text-sm font-bold hover:text-blue-600 uppercase">TV Shows</a>
+                <a href="music.html" class="text-sm font-bold hover:text-blue-600 uppercase">Music</a>
+            </nav>
+            <a href="../home.html" class="text-blue-600 font-semibold hover:underline"> &larr;Back</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        
+        <!-- Título da Secção -->
+            <a href="gamesinfo.html?id=3" class="inline-flex items-center group">
+                <span class="text-sm font-bold uppercase tracking-widest group-hover:text-blue-600 transition-colors">
+                    Ver teste Elden Ring
+                </span>
+            </a>
+
+        <!-- Layout Principal: Destaque + Lateral -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            
+            <!-- Notícia em Grande Destaque (Esquerda) -->
+            <article class="lg:col-span-8 space-y-6">
+                <div class="wireframe-box aspect-video rounded-2xl w-full">
+                    <span class="text-xl font-bold">[Imagem de Destaque da Notícia Principal]</span>
+                </div>
+                <div class="space-y-4">
+                    <span class="news-badge">Especial E3 2026</span>
+                    <h3 class="text-3xl md:text-5xl font-bold leading-tight hover:text-blue-600 cursor-pointer">
+                        Próxima Geração de Consolas: Tudo o que sabemos sobre o novo hardware da indústria.
+                    </h3>
+                    <p class="text-gray-600 text-xl">
+                        Novos rumores indicam que o processamento em nuvem será a base do novo ecossistema, permitindo resoluções nativas em 8K sem latência.
+                    </p>
+                    <div class="flex items-center space-x-4 text-sm text-gray-500">
+                        <span class="font-bold text-white">Por: Redação Gamer</span>
+                        <span>•</span>
+                        <span>Há 2 horas</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Barra Lateral: Mais Lidas (Direita) -->
+            <aside class="lg:col-span-4 space-y-8">
+                <h4 class="text-xl font-bold border-l-4 border-blue-600 pl-4 uppercase tracking-widest">Mais Lidas</h4>
+                
+                <div class="space-y-6">
+                    <!-- Item lateral 1 -->
+                    <div class="flex gap-4 group cursor-pointer">
+                        <div class="wireframe-box w-24 h-24 rounded-lg flex-shrink-0">
+                            <span class="text-xs">[IMG]</span>
+                        </div>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">Novo GTA recebe atualização massiva de conteúdo online.</h5>
+                            <p class="text-xs text-gray-500">Há 5 horas</p>
+                        </div>
+                    </div>
+
+                    <!-- Item lateral 2 -->
+                    <div class="flex gap-4 group cursor-pointer">
+                        <div class="wireframe-box w-24 h-24 rounded-lg flex-shrink-0">
+                            <span class="text-xs">[IMG]</span>
+                        </div>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">Torneio mundial de Valorant bate recorde de audiência.</h5>
+                            <p class="text-xs text-gray-500">Há 8 horas</p>
+                        </div>
+                    </div>
+
+                    <!-- Item lateral 3 -->
+                    <div class="flex gap-4 group cursor-pointer">
+                        <div class="wireframe-box w-24 h-24 rounded-lg flex-shrink-0">
+                            <span class="text-xs">[IMG]</span>
+                        </div>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-sm group-hover:text-blue-600 transition-colors">Steam Deck 2? Patentes sugerem nova bateria de longa duração.</h5>
+                            <p class="text-xs text-gray-500">Ontem</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Newsletter (Adaptado do seu estilo de cores) -->
+                <div class="bg-gray-100 p-6 rounded-xl space-y-4">
+                    <h4 class="font-bold">Receba no seu e-mail</h4>
+                    <p class="text-xs text-gray-500">As melhores notícias do dia, todas as manhãs.</p>
+                    <div class="flex">
+                        <input type="email" placeholder="teu@email.com" class="flex-1 px-4 py-2 rounded-l outline-none text-sm">
+                        <button class="bg-black px-4 py-2 rounded-r text-sm font-bold uppercase">OK</button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Grelha de Notícias Secundárias -->
+        <section class="mt-20">
+            <h4 class="text-2xl font-bold mb-8">Notícias Recentes</h4>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Card Notícia 1 -->
+                <div class="hover-card cursor-pointer group">
+                    <div class="wireframe-box aspect-video rounded-lg mb-4">
+                        <span>[Notícia]</span>
+                    </div>
+                    <span class="text-blue-600 text-xs font-bold uppercase">Mobile</span>
+                    <h5 class="font-bold mt-2 group-hover:underline line-clamp-2">Jogos de telemóvel que estão a dominar o mercado em 2026.</h5>
+                </div>
+
+                <!-- Card Notícia 2 -->
+                <div class="hover-card cursor-pointer group">
+                    <div class="wireframe-box aspect-video rounded-lg mb-4">
+                        <span>[Notícia]</span>
+                    </div>
+                    <span class="text-blue-600 text-xs font-bold uppercase">Hardware</span>
+                    <h5 class="font-bold mt-2 group-hover:underline line-clamp-2">Nova placa gráfica da NVIDIA promete 1000 FPS em CS.</h5>
+                </div>
+
+                <!-- Card Notícia 3 -->
+                <div class="hover-card cursor-pointer group">
+                    <div class="wireframe-box aspect-video rounded-lg mb-4">
+                        <span>[Notícia]</span>
+                    </div>
+                    <span class="text-blue-600 text-xs font-bold uppercase">Indie</span>
+                    <h5 class="font-bold mt-2 group-hover:underline line-clamp-2">Desenvolvedor solitário cria RPG de 100 horas em 2 anos.</h5>
+                </div>
+
+                <!-- Card Notícia 4 -->
+                <div class="hover-card cursor-pointer group">
+                    <div class="wireframe-box aspect-video rounded-lg mb-4">
+                        <span>[Notícia]</span>
+                    </div>
+                    <span class="text-blue-600 text-xs font-bold uppercase">Eventos</span>
+                    <h5 class="font-bold mt-2 group-hover:underline line-clamp-2">Comic Con confirma presença de grandes estúdios de videojogos.</h5>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-12 mt-20">
+        <div class="container mx-auto px-4 text-center text-gray-500 text-sm">
+            <p>© 2026 GamerNews - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
