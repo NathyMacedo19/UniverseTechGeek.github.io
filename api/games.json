@@ -1,204 +1,269 @@
 [
-{
-"id": 1,
-"titulo": "Cyber Nexus 2077",
-"nota": 9.5,
-"sinopse": "Um RPG de ação em mundo aberto ambientado numa metrópole decadente onde o poder, o glamour e as modificações corporais são uma obsessão.",
-"tags": ["RPG", "Mundo Aberto", "Sci-Fi"],
-"desenvolvedora": "NeoStudios",
-"editora": "Global Games",
-"lancamento": "15 Março 2026",
-"plataformas": "PC, PS5, XSX",
-"requisitos": {
-"minimos": {
-"so": "Windows 10 64-bit",
-"cpu": "Intel Core i5-3570K / AMD FX-8310",
-"ram": "8 GB RAM",
-"gpu": "GTX 970 / Radeon RX 470",
-"armazenamento": "70 GB SSD"
-},
-"recomendados": {
-"so": "Windows 11 64-bit",
-"cpu": "Intel Core i7-12700 / Ryzen 7 5800X",
-"ram": "16 GB RAM",
-"gpu": "RTX 3080 / Radeon RX 6800 XT",
-"armazenamento": "70 GB NVMe SSD"
-}
-}
-},
-{
-"id": 2,
-"titulo": "Elden Ring: Shadow Legacy",
-"nota": 9.8,
-"sinopse": "Explore as Terras Intermédias e descubra mistérios ancestrais num mundo de fantasia sombria criado por Hidetaka Miyazaki e George R. R. Martin.",
-"tags": ["Souls-like", "Fantasia", "Difícil"],
-"desenvolvedora": "FromSoftware",
-"editora": "Bandai Namco",
-"lancamento": "21 Junho 2024",
-"plataformas": "PC, PS4, PS5, Xbox",
-"requisitos": {
-"minimos": {
-"so": "Windows 10",
-"cpu": "Intel Core i5-8400",
-"ram": "12 GB RAM",
-"gpu": "GTX 1060 3GB",
-"armazenamento": "60 GB SSD"
-},
-"recomendados": {
-"so": "Windows 11",
-"cpu": "Intel Core i7-8700K",
-"ram": "16 GB RAM",
-"gpu": "RTX 3060",
-"armazenamento": "60 GB SSD"
-}
-}
-},
-{
-"id": 3,
-"titulo": "Horizon: Forbidden Depths",
-"nota": 9.0,
-"sinopse": "Acompanhe Aloy numa jornada submarina e terrestre por ruínas de um passado esquecido, enfrentando máquinas colossais e novas tribos.",
-"tags": ["Ação", "Aventura", "Máquinas"],
-"desenvolvedora": "Guerrilla Games",
-"editora": "Sony Interactive",
-"lancamento": "10 Maio 2025",
-"plataformas": "PC, PS5",
-"requisitos": {
-"minimos": { "so": "Win 10", "cpu": "i5-6600K", "ram": "16 GB", "gpu": "GTX 1650", "armazenamento": "100 GB" },
-"recomendados": { "so": "Win 11", "cpu": "i7-9700K", "ram": "16 GB", "gpu": "RTX 3070", "armazenamento": "100 GB SSD" }
-}
-},
-{
-"id": 4,
-"titulo": "Stellar Drift",
-"nota": 8.2,
-"sinopse": "Simulador de exploração espacial onde a sobrevivência depende da gestão de recursos da sua nave em sistemas solares desconhecidos.",
-"tags": ["Espaço", "Sobrevivência", "Simulação"],
-"desenvolvedora": "Orbit Labs",
-"editora": "IndieSpace",
-"lancamento": "05 Outubro 2025",
-"plataformas": "PC, XSX",
-"requisitos": {
-"minimos": { "so": "Win 10", "cpu": "Ryzen 3 1200", "ram": "8 GB", "gpu": "GTX 1050 Ti", "armazenamento": "40 GB" },
-"recomendados": { "so": "Win 11", "cpu": "Ryzen 5 3600", "ram": "16 GB", "gpu": "RTX 2060", "armazenamento": "40 GB SSD" }
-}
-},
-{
-"id": 5,
-"titulo": "God of War: Ragnarök PC",
-"nota": 9.7,
-"sinopse": "Kratos e Atreus devem viajar pelos Nove Reinos em busca de respostas enquanto as forças asgardianas se preparam para a profetizada batalha.",
-"tags": ["História", "Combate", "Mitologia"],
-"desenvolvedora": "Santa Monica Studio",
-"editora": "PlayStation Publishing",
-"lancamento": "19 Setembro 2024",
-"plataformas": "PC, PS5",
-"requisitos": {
-"minimos": { "so": "Win 10", "cpu": "i5-4670K", "ram": "8 GB", "gpu": "GTX 1060", "armazenamento": "190 GB SSD" },
-"recomendados": { "so": "Win 11", "cpu": "i7-7700K", "ram": "16 GB", "gpu": "RTX 2060 Super", "armazenamento": "190 GB SSD" }
-}
-},
-{
-"id": 6,
-"titulo": "Hollow Knight: Silksong",
-"nota": 9.6,
-"sinopse": "Jogue como Hornet, princesa protetora de Hallownest, numa aventura por um reino totalmente novo de seda e música.",
-"tags": ["Metroidvania", "Indie", "2D"],
-"desenvolvedora": "Team Cherry",
-"editora": "Team Cherry",
-"lancamento": "TBA 2026",
-"plataformas": "PC, Switch, Xbox, PS5",
-"requisitos": {
-"minimos": { "so": "Win 7", "cpu": "i3", "ram": "4 GB", "gpu": "GTX 560", "armazenamento": "9 GB" },
-"recomendados": { "so": "Win 10", "cpu": "i5", "ram": "8 GB", "gpu": "GTX 1050", "armazenamento": "9 GB" }
-}
-},
-{
-"id": 7,
-"titulo": "Ghost of Tsushima 2",
-"nota": 9.4,
-"sinopse": "Jin Sakai retorna para proteger o Japão de novas ameaças, refinando a arte do Fantasma e explorando paisagens deslumbrantes.",
-"tags": ["Samurai", "Beleza Visual", "Stealth"],
-"desenvolvedora": "Sucker Punch",
-"editora": "Sony Interactive",
-"lancamento": "20 Novembro 2025",
-"plataformas": "PS5",
-"requisitos": {
-"minimos": { "so": "N/A (Console)", "cpu": "N/A", "ram": "N/A", "gpu": "N/A", "armazenamento": "85 GB" },
-"recomendados": { "so": "N/A (Console)", "cpu": "N/A", "ram": "N/A", "gpu": "N/A", "armazenamento": "85 GB" }
-}
-},
-{
-"id": 8,
-"titulo": "Doom Eternal: Next Gen",
-"nota": 9.2,
-"sinopse": "Os exércitos do inferno invadiram a Terra. Torne-se o Slayer numa campanha para conquistar demónios através das dimensões.",
-"tags": ["FPS", "Rápido", "Gore"],
-"desenvolvedora": "id Software",
-"editora": "Bethesda",
-"lancamento": "20 Março 2020",
-"plataformas": "PC, PS5, Xbox",
-"requisitos": {
-"minimos": { "so": "Win 10", "cpu": "Ryzen 3", "ram": "8 GB", "gpu": "GTX 1050 Ti", "armazenamento": "50 GB" },
-"recomendados": { "so": "Win 11", "cpu": "Ryzen 7", "ram": "16 GB", "gpu": "RTX 3070", "armazenamento": "50 GB SSD" }
-}
-},
-{
-"id": 9,
-"titulo": "Baldur's Gate 3",
-"nota": 9.9,
-"sinopse": "Reúna o seu grupo e regresse aos Forgotten Realms numa história de amizade e traição, sacrifício e sobrevivência.",
-"tags": ["Turn-based", "Narrativa", "D&D"],
-"desenvolvedora": "Larian Studios",
-"editora": "Larian Studios",
-"lancamento": "03 Agosto 2023",
-"plataformas": "PC, PS5, Xbox",
-"requisitos": {
-"minimos": { "so": "Win 10", "cpu": "i5-4690", "ram": "8 GB", "gpu": "GTX 970", "armazenamento": "150 GB SSD" },
-"recomendados": { "so": "Win 11", "cpu": "i7-8700K", "ram": "16 GB", "gpu": "RTX 2060 Super", "armazenamento": "150 GB SSD" }
-}
-},
-{
-"id": 10,
-"titulo": "Resident Evil 9",
-"nota": 8.9,
-"sinopse": "O capítulo final da saga Winters ou o início de uma nova era de horror de sobrevivência em primeira pessoa.",
-"tags": ["Horror", "Zombies", "Primeira Pessoa"],
-"desenvolvedora": "Capcom",
-"editora": "Capcom",
-"lancamento": "12 Janeiro 2026",
-"plataformas": "PC, PS5, XSX",
-"requisitos": {
-"minimos": { "so": "Win 10", "cpu": "i5-7500", "ram": "8 GB", "gpu": "GTX 1060", "armazenamento": "60 GB" },
-"recomendados": { "so": "Win 11", "cpu": "i7-8700", "ram": "16 GB", "gpu": "RTX 3060", "armazenamento": "60 GB SSD" }
-}
-},
-{
-  "id": 11,
-  "titulo": "Onimusha: Way of the Sword",
-  "nota": 9.2,
-  "sinopse": "O despertar de Genma obriga um ronin solitário a empunhar a Manopla Sagrada. Uma jornada de vingança e honra através de um Japão feudal reimaginado, repleto de demônios e técnicas de espada ancestrais.",
-  "tags": ["Ação", "Hack and Slash", "Sobrenatural", "Samurai"],
-  "desenvolvedora": "Capcom",
-  "editora": "Capcom",
-  "lancamento": "22 Outubro 2026",
-  "plataformas": "PC, PS5, XSX, Nintendo Switch 2",
-  "requisitos": {
-    "minimos": {
-      "so": "Windows 10 64-bit",
-      "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
-      "ram": "12 GB RAM",
-      "gpu": "GTX 1060 (6GB) / Radeon RX 580",
-      "armazenamento": "50 GB SSD"
-    },
-    "recomendados": {
-      "so": "Windows 11 64-bit",
-      "cpu": "Intel Core i7-11700K / AMD Ryzen 7 5700X",
-      "ram": "16 GB RAM",
-      "gpu": "RTX 4070 / Radeon RX 7800 XT",
-      "armazenamento": "50 GB NVMe SSD"
+  {
+    "id": 1,
+    "titulo": "Cyber Nexus 2077",
+    "nota": 9.5,
+    "sinopse": "Um RPG de ação em mundo aberto ambientado numa metrópole decadente onde o poder, o glamour e as modificações corporais são uma obsessão.",
+    "tags": ["RPG", "Mundo Aberto", "Sci-Fi"],
+    "desenvolvedora": "NeoStudios",
+    "editora": "Global Games",
+    "lancamento": "15 Março 2026",
+    "plataformas": "PC, PS5, XSX",
+    "screenshots": [
+      "../assets/img/cyber-nexus-1.jpg",
+      "../assets/img/cyber-nexus-2.jpg",
+      "../assets/img/cyber-nexus-3.jpg",
+      "../assets/img/cyber-nexus-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": {
+        "so": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-3570K / AMD FX-8310",
+        "ram": "8 GB RAM",
+        "gpu": "GTX 970 / Radeon RX 470",
+        "armazenamento": "70 GB SSD"
+      },
+      "recomendados": {
+        "so": "Windows 11 64-bit",
+        "cpu": "Intel Core i7-12700 / Ryzen 7 5800X",
+        "ram": "16 GB RAM",
+        "gpu": "RTX 3080 / Radeon RX 6800 XT",
+        "armazenamento": "70 GB NVMe SSD"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "titulo": "Elden Ring: Shadow Legacy",
+    "nota": 9.8,
+    "sinopse": "Explore as Terras Intermédias e descubra mistérios ancestrais num mundo de fantasia sombria criado por Hidetaka Miyazaki e George R. R. Martin.",
+    "tags": ["Souls-like", "Fantasia", "Difícil"],
+    "desenvolvedora": "FromSoftware",
+    "editora": "Bandai Namco",
+    "lancamento": "21 Junho 2024",
+    "plataformas": "PC, PS4, PS5, Xbox",
+    "screenshots": [
+      "../assets/img/elden-ring-1.jpg",
+      "../assets/img/elden-ring-2.jpg",
+      "../assets/img/elden-ring-3.jpg",
+      "../assets/img/elden-ring-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": {
+        "so": "Windows 10",
+        "cpu": "Intel Core i5-8400",
+        "ram": "12 GB RAM",
+        "gpu": "GTX 1060 3GB",
+        "armazenamento": "60 GB SSD"
+      },
+      "recomendados": {
+        "so": "Windows 11",
+        "cpu": "Intel Core i7-8700K",
+        "ram": "16 GB RAM",
+        "gpu": "RTX 3060",
+        "armazenamento": "60 GB SSD"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "titulo": "Horizon: Forbidden Depths",
+    "nota": 9.0,
+    "sinopse": "Acompanhe Aloy numa jornada submarina e terrestre por ruínas de um passado esquecido, enfrentando máquinas colossais e novas tribos.",
+    "tags": ["Ação", "Aventura", "Máquinas"],
+    "desenvolvedora": "Guerrilla Games",
+    "editora": "Sony Interactive",
+    "lancamento": "10 Maio 2025",
+    "plataformas": "PC, PS5",
+    "screenshots": [
+      "../assets/img/horizon-1.jpg",
+      "../assets/img/horizon-2.jpg",
+      "../assets/img/horizon-3.jpg",
+      "../assets/img/horizon-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-6600K", "ram": "16 GB", "gpu": "GTX 1650", "armazenamento": "100 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-9700K", "ram": "16 GB", "gpu": "RTX 3070", "armazenamento": "100 GB SSD" }
+    }
+  },
+  {
+    "id": 4,
+    "titulo": "Stellar Drift",
+    "nota": 8.2,
+    "sinopse": "Simulador de exploração espacial onde a sobrevivência depende da gestão de recursos da sua nave em sistemas solares desconhecidos.",
+    "tags": ["Espaço", "Sobrevivência", "Simulação"],
+    "desenvolvedora": "Orbit Labs",
+    "editora": "IndieSpace",
+    "lancamento": "05 Outubro 2025",
+    "plataformas": "PC, XSX",
+    "screenshots": [
+      "../assets/img/stellar-drift-1.jpg",
+      "../assets/img/stellar-drift-2.jpg",
+      "../assets/img/stellar-drift-3.jpg",
+      "../assets/img/stellar-drift-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "Ryzen 3 1200", "ram": "8 GB", "gpu": "GTX 1050 Ti", "armazenamento": "40 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "Ryzen 5 3600", "ram": "16 GB", "gpu": "RTX 2060", "armazenamento": "40 GB SSD" }
+    }
+  },
+  {
+    "id": 5,
+    "titulo": "God of War: Ragnarök PC",
+    "nota": 9.7,
+    "sinopse": "Kratos e Atreus devem viajar pelos Nove Reinos em busca de respostas enquanto as forças asgardianas se preparam para a profetizada batalha.",
+    "tags": ["História", "Combate", "Mitologia"],
+    "desenvolvedora": "Santa Monica Studio",
+    "editora": "PlayStation Publishing",
+    "lancamento": "19 Setembro 2024",
+    "plataformas": "PC, PS5",
+    "screenshots": [
+      "../assets/img/gow-ragnarok-1.jpg",
+      "../assets/img/gow-ragnarok-2.jpg",
+      "../assets/img/gow-ragnarok-3.jpg",
+      "../assets/img/gow-ragnarok-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-4670K", "ram": "8 GB", "gpu": "GTX 1060", "armazenamento": "190 GB SSD" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-7700K", "ram": "16 GB", "gpu": "RTX 2060 Super", "armazenamento": "190 GB SSD" }
+    }
+  },
+  {
+    "id": 6,
+    "titulo": "Hollow Knight: Silksong",
+    "nota": 9.6,
+    "sinopse": "Jogue como Hornet, princesa protetora de Hallownest, numa aventura por um reino totalmente novo de seda e música.",
+    "tags": ["Metroidvania", "Indie", "2D"],
+    "desenvolvedora": "Team Cherry",
+    "editora": "Team Cherry",
+    "lancamento": "TBA 2026",
+    "plataformas": "PC, Switch, Xbox, PS5",
+    "screenshots": [
+      "../assets/img/silksong-1.jpg",
+      "../assets/img/silksong-2.jpg",
+      "../assets/img/silksong-3.jpg",
+      "../assets/img/silksong-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 7", "cpu": "i3", "ram": "4 GB", "gpu": "GTX 560", "armazenamento": "9 GB" },
+      "recomendados": { "so": "Win 10", "cpu": "i5", "ram": "8 GB", "gpu": "GTX 1050", "armazenamento": "9 GB" }
+    }
+  },
+  {
+    "id": 7,
+    "titulo": "Ghost of Tsushima 2",
+    "nota": 9.4,
+    "sinopse": "Jin Sakai retorna para proteger o Japão de novas ameaças, refinando a arte do Fantasma e explorando paisagens deslumbrantes.",
+    "tags": ["Samurai", "Beleza Visual", "Stealth"],
+    "desenvolvedora": "Sucker Punch",
+    "editora": "Sony Interactive",
+    "lancamento": "20 Novembro 2025",
+    "plataformas": "PS5",
+    "screenshots": [
+      "../assets/img/tsushima-2-1.jpg",
+      "../assets/img/tsushima-2-2.jpg",
+      "../assets/img/tsushima-2-3.jpg",
+      "../assets/img/tsushima-2-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "N/A (Console)", "cpu": "N/A", "ram": "N/A", "gpu": "N/A", "armazenamento": "85 GB" },
+      "recomendados": { "so": "N/A (Console)", "cpu": "N/A", "ram": "N/A", "gpu": "N/A", "armazenamento": "85 GB" }
+    }
+  },
+  {
+    "id": 8,
+    "titulo": "Doom Eternal: Next Gen",
+    "nota": 9.2,
+    "sinopse": "Os exércitos do inferno invadiram a Terra. Torne-se o Slayer numa campanha para conquistar demónios através das dimensões.",
+    "tags": ["FPS", "Rápido", "Gore"],
+    "desenvolvedora": "id Software",
+    "editora": "Bethesda",
+    "lancamento": "20 Março 2020",
+    "plataformas": "PC, PS5, Xbox",
+    "screenshots": [
+      "../assets/img/doom-eternal-1.jpg",
+      "../assets/img/doom-eternal-2.jpg",
+      "../assets/img/doom-eternal-3.jpg",
+      "../assets/img/doom-eternal-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "Ryzen 3", "ram": "8 GB", "gpu": "GTX 1050 Ti", "armazenamento": "50 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "Ryzen 7", "ram": "16 GB", "gpu": "RTX 3070", "armazenamento": "50 GB SSD" }
+    }
+  },
+  {
+    "id": 9,
+    "titulo": "Baldur's Gate 3",
+    "nota": 9.9,
+    "sinopse": "Reúna o seu grupo e regresse aos Forgotten Realms numa história de amizade e traição, sacrifício e sobrevivência.",
+    "tags": ["Turn-based", "Narrativa", "D&D"],
+    "desenvolvedora": "Larian Studios",
+    "editora": "Larian Studios",
+    "lancamento": "03 Agosto 2023",
+    "plataformas": "PC, PS5, Xbox",
+    "screenshots": [
+      "../assets/img/bg3-1.jpg",
+      "../assets/img/bg3-2.jpg",
+      "../assets/img/bg3-3.jpg",
+      "../assets/img/bg3-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-4690", "ram": "8 GB", "gpu": "GTX 970", "armazenamento": "150 GB SSD" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-8700K", "ram": "16 GB", "gpu": "RTX 2060 Super", "armazenamento": "150 GB SSD" }
+    }
+  },
+  {
+    "id": 10,
+    "titulo": "Resident Evil 9",
+    "nota": 8.9,
+    "sinopse": "O capítulo final da saga Winters ou o início de uma nova era de horror de sobrevivência em primeira pessoa.",
+    "tags": ["Horror", "Zombies", "Primeira Pessoa"],
+    "desenvolvedora": "Capcom",
+    "editora": "Capcom",
+    "lancamento": "12 Janeiro 2026",
+    "plataformas": "PC, PS5, XSX",
+    "screenshots": [
+      "../assets/img/re9.jpg",
+      "../assets/img/re9-2.png",
+      "../assets/img/re9-3.jpg",
+      "../assets/img/re9-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-7500", "ram": "8 GB", "gpu": "GTX 1060", "armazenamento": "60 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-8700", "ram": "16 GB", "gpu": "RTX 3060", "armazenamento": "60 GB SSD" }
+    }
+  },
+  {
+    "id": 11,
+    "titulo": "Onimusha: Way of the Sword",
+    "nota": 9.2,
+    "sinopse": "O despertar de Genma obriga um ronin solitário a empunhar a Manopla Sagrada. Uma jornada de vingança e honra através de um Japão feudal reimaginado.",
+    "tags": ["Ação", "Hack and Slash", "Sobrenatural", "Samurai"],
+    "desenvolvedora": "Capcom",
+    "editora": "Capcom",
+    "lancamento": "22 Outubro 2026",
+    "plataformas": "PC, PS5, XSX, Nintendo Switch 2",
+    "screenshots": [
+      "../assets/img/onimusha-1.jpg",
+      "../assets/img/onimusha-2.jpg",
+      "../assets/img/onimusha-3.jpg",
+      "../assets/img/onimusha-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": {
+        "so": "Windows 10 64-bit",
+        "cpu": "Intel Core i5-8400 / AMD Ryzen 5 2600",
+        "ram": "12 GB RAM",
+        "gpu": "GTX 1060 (6GB) / Radeon RX 580",
+        "armazenamento": "50 GB SSD"
+      },
+      "recomendados": {
+        "so": "Windows 11 64-bit",
+        "cpu": "Intel Core i7-11700K / AMD Ryzen 7 5700X",
+        "ram": "16 GB RAM",
+        "gpu": "RTX 4070 / Radeon RX 7800 XT",
+        "armazenamento": "50 GB NVMe SSD"
+      }
     }
   }
-}
-
 ]

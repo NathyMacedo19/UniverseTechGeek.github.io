@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Livro - BookCentral</title>
+    <!-- Utilizando o mesmo CSS base para manter a consistência -->
+    <link rel="stylesheet" href="../assets/css/HomeCustom.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="py-6 border-b border-gray-200">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold uppercase tracking-tighter">Book<span class="text-blue-600">Central</span></a>
+            <nav class="space-x-8">
+                <a href="biblioteca.html" class="text-sm font-bold hover:text-blue-600">Biblioteca</a>
+                <a href="../home.html" class="text-sm font-bold hover:text-blue-600">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        
+        <div class="book-container">
+            <!-- Capa do Livro -->
+            <div class="book-cover wireframe-box shadow-2xl" id="book-cover-container">
+                <span class="text-xl font-bold uppercase text-center p-4">[Capa do Livro]</span>
+            </div>
+
+            <!-- Informações Principais -->
+            <div class="space-y-6">
+                <div class="flex items-start justify-between flex-wrap gap-4">
+                    <div>
+                        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tighter" id="book-title">Carregando Título...</h1>
+                        <p class="text-xl text-blue-600 font-bold mt-2" id="book-author">Autor</p>
+                    </div>
+                    <div class="rating-badge text-white" id="book-rating">-</div>
+                </div>
+                
+                <p class="text-gray-600 text-lg leading-relaxed" id="book-short-description">
+                    Carregando descrição curta...
+                </p>
+
+                <div class="flex flex-wrap gap-2" id="genre-tags">
+                    <!-- Injetado via JS -->
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12">
+                    <div class="info-grid-item">
+                        <span class="text-gray-500">Editora</span>
+                        <span class="font-bold" id="info-publisher">-</span>
+                    </div>
+                    <div class="info-grid-item">
+                        <span class="text-gray-500">Idioma</span>
+                        <span class="font-bold" id="info-language">-</span>
+                    </div>
+                    <div class="info-grid-item">
+                        <span class="text-gray-500">Data de Publicação</span>
+                        <span class="font-bold" id="info-date">-</span>
+                    </div>
+                    <div class="info-grid-item">
+                        <span class="text-gray-500">Páginas</span>
+                        <span class="font-bold" id="info-pages">-</span>
+                    </div>
+                </div>
+
+                <div class="flex gap-4 pt-4">
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Sinopse e Detalhes Adicionais -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-20">
+            <div class="lg:col-span-2">
+                <h2 class="text-3xl font-bold mb-8 border-l-4 border-blue-600 pl-4">Sinopse Completa</h2>
+                <div class="space-y-4 text-gray-600 leading-relaxed text-lg" id="book-full-synopsis">
+                    <!-- Injetado via JS -->
+                </div>
+            </div>
+
+            <!-- Especificações Físicas -->
+            <div>
+                <h2 class="text-3xl font-bold mb-8 border-l-4 border-blue-600 pl-4">Especificações</h2>
+                <div class="spec-card space-y-4">
+                    <div class="text-sm">
+                        <p class="text-gray-500 uppercase font-bold text-xs mb-1">ISBN-13</p>
+                        <p class="font-bold" id="spec-isbn">-</p>
+                    </div>
+                    <div class="text-sm">
+                        <p class="text-gray-500 uppercase font-bold text-xs mb-1">Dimensões</p>
+                        <p class="font-bold" id="spec-dimensions">-</p>
+                    </div>
+                    <div class="text-sm">
+                        <p class="text-gray-500 uppercase font-bold text-xs mb-1">Formato</p>
+                        <p class="font-bold" id="spec-format">-</p>
+                    </div>
+                    <div class="text-sm">
+                        <p class="text-gray-500 uppercase font-bold text-xs mb-1">Peso</p>
+                        <p class="font-bold" id="spec-weight">-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-gray-100 py-12 mt-20 border-t border-gray-200 text-center">
+        <div class="container mx-auto px-4">
+            <p class="text-gray-500 text-sm">© 2026 BookCentral. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script de integração -->
+    <script src="../JS/bookinfo.js"></script>
+</body>
+</html>

@@ -1,7 +1,3 @@
-/**
- * games.js - Carregamento dinâmico de detalhes do jogo
- * Este script lê o ficheiro games.json e preenche a página gamesinfo.html
- */
 
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Obter o ID do jogo a partir da URL (ex: gamesinfo.html?id=1)
@@ -128,4 +124,62 @@ function renderGameDetails(game) {
         recReqs[3].innerHTML = `<strong>Placa Gráfica:</strong> ${game.requisitos.recomendados.gpu}`;
         recReqs[4].innerHTML = `<strong>Espaço:</strong> ${game.requisitos.recomendados.armazenamento}`;
     }
+	
+
+		// ... (seu código anterior de títulos, tags e requisitos)
+
+    const galleryContainer = document.getElementById('game-gallery');
+
+    if (galleryContainer && game.screenshots && game.screenshots.length > 0) {
+        // Usamos as classes do seu CSS: .grid, .gap-4, .gallery-grid
+        galleryContainer.innerHTML = `
+            <div class="lg:col-span-8">
+                <div class="gallery-grid">
+                    
+                    <div class=" hover-card cursor-pointer group  aspect-video rounded-2xl overflow-hidden">
+                        <img src="${game.screenshots[0]}" 
+                            alt="${game.titulo}" 
+                            id="main-photo"
+                            class="w-full h-full rounded-2xl wireframe-box " 
+                            style="object-cover: cover; transition: opacity 0.3s;">
+                    </div>
+                    
+                    <div class="flex flex-col gap-4">
+                        ${game.screenshots.slice(1, 4).map((src, index) => `
+                            <div class=" hover-card cursor-pointer group flex-1 aspect-video rounded-lg overflow-hidden" 
+                                style="cursor: pointer;">
+                                <img src="${src}" 
+                                    alt="Screenshot ${index + 2}" 
+                                    class="w-full h-full rounded-lg wireframe-box" 
+                                    style="width: 100%; height: 100%; object-fit: cover; transition: all 0.3s ease;"
+                                    onclick="swapImages(this)">
+                            </div>
+                        `).join('')}
+                    </div>
+
+                </div>
+            </div>
+        `;
+    }
+
+    window.swapImages = function(elThumb) {
+        const mainPhoto = document.getElementById('main-photo');
+        
+        // Guardamos o SRC da foto grande atual
+        const tempSrc = mainPhoto.src;
+        
+        // A foto grande recebe o SRC da miniatura clicada
+        mainPhoto.src = elThumb.src;
+        
+        // A miniatura clicada recebe o SRC que estava na grande
+        elThumb.src = tempSrc;
+        
+        // Efeito visual opcional: piscar rápido para indicar a troca
+        mainPhoto.style.opacity = '0.5';
+        elThumb.style.opacity = '0.5';
+        setTimeout(() => {
+            mainPhoto.style.opacity = '1';
+            elThumb.style.opacity = '1';
+        }, 100);
+    };
 }

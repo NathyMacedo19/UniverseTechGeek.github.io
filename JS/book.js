@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         data-cover="${book.cover}"
                         data-title="${book.title}"
                         data-author="${book.author}"
-                        data-desc="${book.description}">
+                        data-desc="${book.description}"
+                        data-id="${book.id}">
                         
                         <div class="aspect-[2/3] rounded-md shadow-sm overflow-hidden">
                             <img src="${book.cover}" 
@@ -42,6 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 <button id="close-details" class="text-blue-600 font-semibold hover:underline">
                     close
                 </button>
+                 <button id="more-details" class="text-blue-600 font-semibold hover:underline">
+                    Mais Detalhes
+                </button>
 
                 <div class="flex flex-col md:flex-row items-start gap-6 mb-4 w-full">
                     <img src="${cover}" alt="${title}" class="w-64 object-cover rounded-md shadow-md">
@@ -69,6 +73,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 <h3 class="text-2xl font-bold mb-2">Selecione um livro</h3>
                 <p class="text-gray-500">Clique em um livro à esquerda para ver detalhes.</p>
             `;
+        });
+        document.getElementById("more-details").addEventListener("click", function () {
+            const bookId = item.dataset.id;
+            window.location.href = `booksinfo.html?id=${bookId}`;
         });
     });
 });
