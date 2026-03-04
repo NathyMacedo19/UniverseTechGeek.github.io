@@ -50,44 +50,58 @@
 
 
     <header class="border-b border-gray-200 py-6">
-        <div class="container mx-auto px-4 flex justify-between items-center">
-            <h4 class="text-2xl font-extrabold tracking-tighter uppercase">Universe Tech<span class="text-blue-600">Geek</span></h4>
-            <nav class="space-x-8 hidden md:flex">
-                <a href="books.html" class="text-sm font-bold hover:text-blue-600 uppercase">Books</a>
-                <a href="games.html" class="text-sm font-bold hover:text-blue-600 uppercase">Games</a>
-                <a href="movies.html" class="text-sm font-bold hover:text-blue-600 uppercase">Movies</a>
-                <a href="tv.html" class="text-sm font-bold hover:text-blue-600 uppercase">TV Shows</a>
-                <a href="music.html" class="text-sm font-bold hover:text-blue-600 uppercase">Music</a>
-                <a href="../home.html" class="text-sm font-bold hover:text-blue-600 uppercase">Home</a>
+        <div class="container mx-auto px-4 h-16 flex items-center justify-between ">
+            <a href="../home.html" class="text-2xl font-extrabold font-bold button-transparent uppercase">universe Tech<span class="text-blue-600">Geek</span></a>
+            
+            <nav class="hidden md:flex font-medium text-sm uppercase tracking-wide">
+                <a href="books.html" class="text-sm font-bold button-transparent ">Books</a>
+                <a href="games.html" class="text-sm font-bold button-transparent ">Games</a>
+                <a href="movies.html" class="text-sm font-bold button-transparent ">Movies</a>
+                <a href="music.html" class="text-sm font-bold button-transparent ">Music</a>
+                <a href="tv.html" class="text-sm font-bold button-transparent ">TV Shows</a>
             </nav>
-            <a href="../home.html" class="text-blue-600 font-semibold hover:underline"> &larr;Back</a>
+
+            <div class="flex items-center space-x-4">
+                <div class="w-7 h-7 rounded-full bg-gray-200 wireframe-box text-xs">U</div>
+                    <button class="md:hidden p-2">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
         </div>
     </header>
 
     <main class="container mx-auto px-4 py-12">
-
-        
         <!-- Hero Section do Jogo -->
-            <main class="py-16">
-                <div class="container px-4">
-                    <div id="game-gallery" class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start"></div>
+            <div id="game-gallery" class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start w-full">
+                <div class="lg:col-span-8">
+                    <div class="w-full h-[500px] overflow-hidden rounded-xl bg-black">
+                        <img id="main-display" src="sua-imagem.jpg" class="w-full h-full object-cover">
+                    </div>
                 </div>
-            </main>
+
+                <div class="lg:col-span-4">
+                    </div>
+            </div>
 
             <!-- Sidebar de Informações Rápidas -->
-            <div class="lg:col-span-4 space-y-6">
+            <div class="lg:col-span-4 space-y-6 py-12">
                 <div class="flex items-center justify-between">
                     <h1 class="text-4xl font-extrabold tracking-tighter">Cyber Nexus 2077</h1>
                     <div class="rating-badge text-white">9.5</div>
                 </div>
                 
-                <p class="text-gray-600">
-                    Um RPG de ação em mundo aberto ambientado numa metrópole decadente onde o poder, o glamour e as modificações corporais são uma obsessão.
-                </p>
-
-                <div class="flex flex-wrap gap-2">
-                    <span id="tags-container"></span>
-                </div>
+                <section class="mt-20">
+                   
+                    <div class="max-w-3xl space-y-4 text-gray-600 leading-relaxed">
+                        <p>
+                            Assume o papel de V, um mercenário fora da lei atrás de um implante único que carrega a chave para a imortalidade. Podes personalizar o teu software cibernético, o conjunto de habilidades e o estilo de jogo, e explorar uma vasta cidade onde as decisões que tomas definem a história e o mundo ao teu redor.
+                        </p>
+                        <p>
+                            Night City é densa, vertical e cheia de perigos. Desde os arranha-céus das megacorporações até às ruas perigosas dominadas por gangues, cada canto esconde um segredo ou uma oportunidade de lucro.
+                        </p>
+                    </div>
+                </section>
 
                 <div class="space-y-1">
                     <div class="info-grid-item">
@@ -106,31 +120,20 @@
                         <span class="text-gray-500">Plataformas</span>
                         <span class="font-bold">PC, PS5, XSX</span>
                     </div>
-                </div>
-
-                
+                    <div class="info-grid-item">
+                        <span class="text-gray-500">Gênero</span>
+                        <span id="tags-container"></span>
+                    </div>
+                </div> 
             </div>
         </div>
 
-        <!-- Secção de Detalhes Técnicos / Requisitos -->
-        <section class="mt-20">
-            <h2 class="text-3xl font-bold mb-8 border-l-4 border-blue-600 pl-4">Sinopse</h2>
-            <div class="max-w-3xl space-y-4 text-gray-600 leading-relaxed">
-                <p>
-                    Assume o papel de V, um mercenário fora da lei atrás de um implante único que carrega a chave para a imortalidade. Podes personalizar o teu software cibernético, o conjunto de habilidades e o estilo de jogo, e explorar uma vasta cidade onde as decisões que tomas definem a história e o mundo ao teu redor.
-                </p>
-                <p>
-                    Night City é densa, vertical e cheia de perigos. Desde os arranha-céus das megacorporações até às ruas perigosas dominadas por gangues, cada canto esconde um segredo ou uma oportunidade de lucro.
-                </p>
-            </div>
-        </section>
-
-        <section class="mt-20">
-            <h2 class="text-3xl font-bold mb-8 border-l-4 border-blue-600 pl-4">Requisitos de Sistema</h2>
+        <section class="mt-20 ">
+            <h2 class="text-3xl font-bold mb-4 border-l-4 border-blue-600">System Requirements</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Mínimos -->
                 <div class="requirement-card">
-                    <h3 class="text-blue-600 font-bold mb-4 uppercase">Mínimos</h3>
+                    <h3 class="text-blue-600 font-bold mb-4 uppercase">Minimum</h3>
                     <ul class="space-y-3 text-sm">
                         <li><strong>SO:</strong> Windows 10 64-bit</li>
                         <li><strong>Processador:</strong> Intel Core i5-3570K / AMD FX-8310</li>
@@ -156,12 +159,44 @@
 
     </main>
 
-    <footer class="bg-gray-100 py-12 mt-20 border-t border-gray-200">
+    <div class="flex justify-center py-12 mt-4">
+
+        <div class="spec-card space-y-4 w-full" style="max-width:1150px;">
+
+            <h2 class="text-2xl font-bold text-center">Deixe sua Avaliação</h2>
+            <div class="text-center">
+                <p class="mb-4 text-gray-600">Selecione uma nota:</p>
+                <div id="ratingButtons" class="flex justify-center flex-wrap gap-2"></div>
+            </div>
+            <div>
+                <textarea 
+                    id="reviewText" 
+                    class="w-full p-2 rounded bg-gray-100 text-white outline-none"
+                    rows="4"
+                    placeholder="Escreva sua review...">
+                </textarea>
+            </div>
+            <div class="flex justify-center">
+                <button 
+                    onclick="submitReview()" 
+                    class="bg-black px-4 py-2 rounded font-semibold">
+                    Enviar Avaliação
+                </button>
+            </div>
+            <div id="reviews" class="space-y-4 mt-4 reviews-container"></div>
+        </div>
+
+    </div>
+
+    <footer class="bg-gray-100 mt-20 border-t border-gray-200">
         <div class="container mx-auto px-4 text-center">
             <p class="text-gray-500 text-sm">© 2026 GamerCentral. As imagens são meramente ilustrativas (Wireframe).</p>
         </div>
     </footer>
         <script src="../JS/games.js"></script>
+        <script src="../JS/review.js"></script>
 
+    <div class="spec-card space-y-4">
+        
 </body>
 </html>

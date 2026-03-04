@@ -10,13 +10,25 @@
 <body class="bg-white font-sans text-gray-900">
 
     <!-- Header -->
-    <header class="py-6 border-b border-gray-200 ">
-        <div class="container mx-auto px-4 flex justify-between items-center">
+    <header class="border-b border-gray-200 py-6">
+        <div class="container mx-auto px-4 h-16 flex items-center justify-between ">
             <a href="../home.html" class="text-2xl font-extrabold font-bold button-transparent uppercase">universe Tech<span class="text-blue-600">Geek</span></a>
-            <nav class="space-x-8">
-                <a href="books.html" class="text-sm font-bold button-transparent">library</a>
-                <a href="../home.html" class="text-sm font-bold button-transparent">Home</a>
+            
+            <nav class="hidden md:flex font-medium text-sm uppercase tracking-wide">
+                <a href="books.html" class="text-sm font-bold button-transparent ">Books</a>
+                <a href="games.html" class="text-sm font-bold button-transparent ">Games</a>
+                <a href="movies.html" class="text-sm font-bold button-transparent ">Movies</a>
+                <a href="music.html" class="text-sm font-bold button-transparent ">Music</a>
+                <a href="tv.html" class="text-sm font-bold button-transparent ">TV Shows</a>
             </nav>
+
+            <div class="flex items-center space-x-4">
+                <div class="w-7 h-7 rounded-full bg-gray-200 wireframe-box text-xs">U</div>
+                    <button class="md:hidden p-2">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -65,11 +77,6 @@
                         <span class="text-gray-500">Gênero</span>
                         <span class="font-bold" id="genre-tags">-</span>
                     </div>
-                </div>
-
-                <div class="flex gap-4 pt-4">
-                    
-                    
                 </div>
             </div>
         </div>

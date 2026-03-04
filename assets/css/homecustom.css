@@ -102,8 +102,9 @@ body{
 ========================= */
 .h-3{ height:12px; }
 .h-4{ height:16px; }
-.h-8{ width:32px;}
+.h-8{ height:32px;}
 .h-6{ height:24px; }
+.h-7{ height:42px; }
 .h-16{ height:64px; }
 .h-24{ height:96px; }
 .h-32 { height:128px;}
@@ -112,6 +113,7 @@ body{
 
 .w-6{ width:24px; }
 .w-8{ width:32px; }
+.w-7{ width:42px; }
 .w-20{ width:80px; }
 .w-24{ width:96px; }
 .w-32{ width:128px; }
@@ -424,3 +426,56 @@ a {
     gap: 8px; 
 }
 */
+
+.rating-btn {
+    padding: 8px 14px;
+    background: var(--gray-100);
+    border: 1px solid var(--gray-300);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    color: white;
+}
+
+.rating-btn:hover {
+    border-color: var(--red-destaque);
+}
+
+.rating-btn.active {
+    background: var(--red-destaque);
+    border-color: var(--red-destaque);
+}
+
+.review-card {
+    background: var(--gray-100);
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid var(--gray-200);
+    min-height: 90px;
+}
+
+.review-note {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--red-destaque);
+}
+
+.reviews-container {
+    max-height: 500px; /* altura aproximada para ~5 reviews */
+    overflow-y: auto;
+    padding-right: 8px; /* espaço pro scroll não colar no texto */
+}
+
+/* Scroll customizado dark */
+.reviews-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.reviews-container::-webkit-scrollbar-track {
+    background: var(--gray-100);
+}
+
+.reviews-container::-webkit-scrollbar-thumb {
+    background: var(--red-destaque);
+    border-radius: 8px;
+}

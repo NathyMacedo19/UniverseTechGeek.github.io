@@ -1,233 +1,297 @@
 [
   {
     "id": 1,
-    "title": "Cyberpunk 2077",
-    "rating": 9.5,
-    "synopsis": "An open-world action RPG set in Night City, a megalopolis obsessed with power, glamour, and body modification.",
+    "titulo": "Cyberpunk 2077",
+    "nota": 9.5,
+    "sinopse": "An open-world action RPG set in Night City, a megalopolis obsessed with power, glamour, and body modification.",
     "tags": ["RPG", "Open World", "Sci-Fi"],
-    "developer": "CD Projekt Red",
-    "publisher": "CD Projekt",
-    "release": "December 10, 2020",
-    "platforms": "PC, PS5, XSX",
+    "desenvolvedora": "CD Projekt Red",
+    "editora": "CD Projekt",
+    "lancamento": "December 10, 2020",
+    "plataformas": "PC, PS5, XSX",
     "screenshots": [
       "../assets/img/cyberpunk-1.jpg",
       "../assets/img/cyberpunk-2.jpg",
       "../assets/img/cyberpunk-3.jpg",
       "../assets/img/cyberpunk-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "Windows 10", "cpu": "i5-3570K", "ram": "8 GB", "gpu": "GTX 970", "storage": "70 GB SSD" },
-      "recommended": { "so": "Windows 11", "cpu": "i7-12700", "ram": "16 GB", "gpu": "RTX 3080", "storage": "70 GB NVMe" }
+    "requisitos": {
+      "minimos": { "so": "Windows 10", "cpu": "i5-3570K", "ram": "8 GB", "gpu": "GTX 970", "armazenamento": "70 GB SSD" },
+      "recomendados": { "so": "Windows 11", "cpu": "i7-12700", "ram": "16 GB", "gpu": "RTX 3080", "armazenamento": "70 GB NVMe" }
     }
   },
   {
     "id": 2,
-    "title": "Elden Ring: Shadow of the Erdtree",
-    "rating": 9.8,
-    "synopsis": "Explore the Land of Shadow and uncover dark secrets in this massive expansion to the world created by Miyazaki and George R. R. Martin.",
+    "titulo": "Elden Ring: Shadow of the Erdtree",
+    "nota": 9.8,
+    "sinopse": "Explore the Land of Shadow and uncover dark secrets in this massive expansion to the world created by Miyazaki and George R. R. Martin.",
     "tags": ["Souls-like", "Fantasy", "Difficult"],
-    "developer": "FromSoftware",
-    "publisher": "Bandai Namco",
-    "release": "June 21, 2024",
-    "platforms": "PC, PS4, PS5, XSX",
+    "desenvolvedora": "FromSoftware",
+    "editora": "Bandai Namco",
+    "lancamento": "June 21, 2024",
+    "plataformas": "PC, PS4, PS5, XSX",
     "screenshots": [
       "../assets/img/elden-ring-1.jpg",
       "../assets/img/elden-ring-2.jpg",
       "../assets/img/elden-ring-3.jpg",
       "../assets/img/elden-ring-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "Windows 10", "cpu": "i5-8400", "ram": "12 GB", "gpu": "GTX 1060 3GB", "storage": "60 GB SSD" },
-      "recommended": { "so": "Windows 11", "cpu": "i7-8700K", "ram": "16 GB", "gpu": "RTX 3060", "storage": "60 GB SSD" }
+    "requisitos": {
+      "minimos": { "so": "Windows 10", "cpu": "i5-8400", "ram": "12 GB", "gpu": "GTX 1060 3GB", "armazenamento": "60 GB SSD" },
+      "recomendados": { "so": "Windows 11", "cpu": "i7-8700K", "ram": "16 GB", "gpu": "RTX 3060", "armazenamento": "60 GB SSD" }
     }
   },
   {
     "id": 3,
-    "title": "Horizon Forbidden West",
-    "rating": 9.0,
-    "synopsis": "Join Aloy as she braves the Forbidden West—a majestic but dangerous frontier that conceals mysterious new threats.",
+    "titulo": "Horizon Forbidden West",
+    "nota": 9.0,
+    "sinopse": "Join Aloy as she braves the Forbidden West—a majestic but dangerous frontier that conceals mysterious new threats.",
     "tags": ["Action", "Adventure", "Machines"],
-    "developer": "Guerrilla Games",
-    "publisher": "Sony Interactive",
-    "release": "February 18, 2022",
-    "platforms": "PC, PS4, PS5",
+    "desenvolvedora": "Guerrilla Games",
+    "editora": "Sony Interactive",
+    "lancamento": "February 18, 2022",
+    "plataformas": "PC, PS4, PS5",
     "screenshots": [
       "../assets/img/horizon-1.jpg",
       "../assets/img/horizon-2.jpg",
       "../assets/img/horizon-3.jpg",
       "../assets/img/horizon-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "Win 10", "cpu": "i5-6600K", "ram": "16 GB", "gpu": "GTX 1650", "storage": "100 GB" },
-      "recommended": { "so": "Win 11", "cpu": "i7-9700K", "ram": "16 GB", "gpu": "RTX 3070", "storage": "100 GB SSD" }
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-6600K", "ram": "16 GB", "gpu": "GTX 1650", "armazenamento": "100 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-9700K", "ram": "16 GB", "gpu": "RTX 3070", "armazenamento": "100 GB SSD" }
     }
   },
   {
     "id": 4,
-    "title": "Starfield",
-    "rating": 8.2,
-    "synopsis": "In this next-generation RPG set amongst the stars, explore with unparalleled freedom and discover the greatest mystery of humanity.",
+    "titulo": "Starfield",
+    "nota": 8.2,
+    "sinopse": "In this next-generation RPG set amongst the stars, explore with unparalleled freedom and discover the greatest mystery of humanity.",
     "tags": ["Space", "Survival", "Simulation"],
-    "developer": "Bethesda Game Studios",
-    "publisher": "Bethesda Softworks",
-    "release": "September 6, 2023",
-    "platforms": "PC, XSX",
+    "desenvolvedora": "Bethesda Game Studios",
+    "editora": "Bethesda Softworks",
+    "lancamento": "September 6, 2023",
+    "plataformas": "PC, XSX",
     "screenshots": [
       "../assets/img/starfield-1.jpg",
       "../assets/img/starfield-2.jpg",
       "../assets/img/starfield-3.jpg",
       "../assets/img/starfield-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "Win 10", "cpu": "Ryzen 5 2600X", "ram": "16 GB", "gpu": "GTX 1070 Ti", "storage": "125 GB SSD" },
-      "recommended": { "so": "Win 11", "cpu": "Ryzen 5 3600X", "ram": "16 GB", "gpu": "RTX 2080", "storage": "125 GB SSD" }
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "Ryzen 5 2600X", "ram": "16 GB", "gpu": "GTX 1070 Ti", "armazenamento": "125 GB SSD" },
+      "recomendados": { "so": "Win 11", "cpu": "Ryzen 5 3600X", "ram": "16 GB", "gpu": "RTX 2080", "armazenamento": "125 GB SSD" }
     }
   },
   {
     "id": 5,
-    "title": "God of War Ragnarök",
-    "rating": 9.7,
-    "synopsis": "Kratos and Atreus must journey to each of the Nine Realms in search of answers as the prophecy of Ragnarök looms.",
+    "titulo": "God of War Ragnarök",
+    "nota": 9.7,
+    "sinopse": "Kratos and Atreus must journey to each of the Nine Realms in search of answers as the prophecy of Ragnarök looms.",
     "tags": ["Story", "Combat", "Mythology"],
-    "developer": "Santa Monica Studio",
-    "publisher": "PlayStation Publishing",
-    "release": "November 9, 2022",
-    "platforms": "PC, PS4, PS5",
+    "desenvolvedora": "Santa Monica Studio",
+    "editora": "PlayStation Publishing",
+    "lancamento": "November 9, 2022",
+    "plataformas": "PC, PS4, PS5",
     "screenshots": [
       "../assets/img/gow-ragnarok-1.jpg",
       "../assets/img/gow-ragnarok-2.jpg",
       "../assets/img/gow-ragnarok-3.jpg",
       "../assets/img/gow-ragnarok-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "Win 10", "cpu": "i5-4670K", "ram": "8 GB", "gpu": "GTX 1060", "storage": "190 GB SSD" },
-      "recommended": { "so": "Win 11", "cpu": "i7-7700K", "ram": "16 GB", "gpu": "RTX 2060 Super", "storage": "190 GB SSD" }
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-4670K", "ram": "8 GB", "gpu": "GTX 1060", "armazenamento": "190 GB SSD" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-7700K", "ram": "16 GB", "gpu": "RTX 2060 Super", "armazenamento": "190 GB SSD" }
     }
   },
   {
     "id": 6,
-    "title": "Hollow Knight: Silksong",
-    "rating": 9.6,
-    "synopsis": "Explore a vast, haunted kingdom as Hornet, princess-protector of Hallownest, in this highly anticipated sequel.",
+    "titulo": "Hollow Knight: Silksong",
+    "nota": 9.6,
+    "sinopse": "Explore a vast, haunted kingdom as Hornet, princess-protector of Hallownest, in this highly anticipated sequel.",
     "tags": ["Metroidvania", "Indie", "2D"],
-    "developer": "Team Cherry",
-    "publisher": "Team Cherry",
-    "release": "TBA 2026",
-    "platforms": "PC, Switch, Xbox, PS5",
+    "desenvolvedora": "Team Cherry",
+    "editora": "Team Cherry",
+    "lancamento": "TBA 2026",
+    "plataformas": "PC, Switch, Xbox, PS5",
     "screenshots": [
       "../assets/img/silksong-1.jpg",
       "../assets/img/silksong-2.jpg",
       "../assets/img/silksong-3.jpg",
       "../assets/img/silksong-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "Win 10", "cpu": "i3", "ram": "4 GB", "gpu": "GTX 560", "storage": "9 GB" },
-      "recommended": { "so": "Win 11", "cpu": "i5", "ram": "8 GB", "gpu": "GTX 1050", "storage": "9 GB" }
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i3", "ram": "4 GB", "gpu": "GTX 560", "armazenamento": "9 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i5", "ram": "8 GB", "gpu": "GTX 1050", "armazenamento": "9 GB" }
     }
   },
   {
     "id": 7,
-    "title": "Ghost of Yotei",
-    "rating": 9.4,
-    "synopsis": "Set in 1603, follow a new protagonist, Atsu, through the lands surrounding Mount Yotei in this evolution of the Ghost franchise.",
+    "titulo": "Ghost of Yotei",
+    "nota": 9.4,
+    "sinopse": "Set in 1603, follow a new protagonist, Atsu, through the lands surrounding Mount Yotei in this evolution of the Ghost franchise.",
     "tags": ["Samurai", "Open World", "Stealth"],
-    "developer": "Sucker Punch",
-    "publisher": "Sony Interactive",
-    "release": "2025",
-    "platforms": "PS5",
+    "desenvolvedora": "Sucker Punch",
+    "editora": "Sony Interactive",
+    "lancamento": "2025",
+    "plataformas": "PS5",
     "screenshots": [
       "../assets/img/yotei-1.jpg",
       "../assets/img/yotei-2.jpg",
       "../assets/img/yotei-3.jpg",
       "../assets/img/yotei-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "N/A", "cpu": "N/A", "ram": "N/A", "gpu": "N/A", "storage": "85 GB" },
-      "recommended": { "so": "N/A", "cpu": "N/A", "ram": "N/A", "gpu": "N/A", "storage": "85 GB" }
+    "requisitos": {
+      "minimos": { "so": "N/A", "cpu": "N/A", "ram": "N/A", "gpu": "N/A", "armazenamento": "85 GB" },
+      "recomendados": { "so": "N/A", "cpu": "N/A", "ram": "N/A", "gpu": "N/A", "armazenamento": "85 GB" }
     }
   },
   {
     "id": 8,
-    "title": "DOOM Eternal",
-    "rating": 9.2,
-    "synopsis": "Hell’s armies have invaded Earth. Become the Slayer in an epic campaign to conquer demons across dimensions.",
+    "titulo": "DOOM Eternal",
+    "nota": 9.2,
+    "sinopse": "Hell’s armies have invaded Earth. Become the Slayer in an epic campaign to conquer demons across dimensions.",
     "tags": ["FPS", "Fast-paced", "Gore"],
-    "developer": "id Software",
-    "publisher": "Bethesda",
-    "release": "March 20, 2020",
-    "platforms": "PC, PS4, PS5, Xbox",
+    "desenvolvedora": "id Software",
+    "editora": "Bethesda",
+    "lancamento": "March 20, 2020",
+    "plataformas": "PC, PS4, PS5, Xbox",
     "screenshots": [
       "../assets/img/doom-1.jpg",
       "../assets/img/doom-2.jpg",
       "../assets/img/doom-3.jpg",
       "../assets/img/doom-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "Win 10", "cpu": "Ryzen 3", "ram": "8 GB", "gpu": "GTX 1050 Ti", "storage": "50 GB" },
-      "recommended": { "so": "Win 11", "cpu": "Ryzen 7", "ram": "16 GB", "gpu": "RTX 3070", "storage": "50 GB SSD" }
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "Ryzen 3", "ram": "8 GB", "gpu": "GTX 1050 Ti", "armazenamento": "50 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "Ryzen 7", "ram": "16 GB", "gpu": "RTX 3070", "armazenamento": "50 GB SSD" }
     }
   },
   {
     "id": 9,
-    "title": "Baldur's Gate 3",
-    "rating": 9.9,
-    "synopsis": "Return to the Forgotten Realms in a tale of fellowship and betrayal. Experience unparalleled freedom in a massive D&D world.",
+    "titulo": "Baldur's Gate 3",
+    "nota": 9.9,
+    "sinopse": "Return to the Forgotten Realms in a tale of fellowship and betrayal. Experience unparalleled freedom in a massive D&D world.",
     "tags": ["Turn-based", "Narrative", "D&D"],
-    "developer": "Larian Studios",
-    "publisher": "Larian Studios",
-    "release": "August 3, 2023",
-    "platforms": "PC, PS5, XSX",
+    "desenvolvedora": "Larian Studios",
+    "editora": "Larian Studios",
+    "lancamento": "August 3, 2023",
+    "plataformas": "PC, PS5, XSX",
     "screenshots": [
       "../assets/img/bg3-1.jpg",
       "../assets/img/bg3-2.jpg",
       "../assets/img/bg3-3.jpg",
       "../assets/img/bg3-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "Win 10", "cpu": "i5-4690", "ram": "8 GB", "gpu": "GTX 970", "storage": "150 GB SSD" },
-      "recommended": { "so": "Win 11", "cpu": "i7-8700K", "ram": "16 GB", "gpu": "RTX 2060 Super", "storage": "150 GB SSD" }
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-4690", "ram": "8 GB", "gpu": "GTX 970", "armazenamento": "150 GB SSD" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-8700K", "ram": "16 GB", "gpu": "RTX 2060 Super", "armazenamento": "150 GB SSD" }
     }
   },
   {
     "id": 10,
-    "title": "Resident Evil: Requiem",
-    "rating": 8.9,
-    "synopsis": "The latest nightmare in the Resident Evil saga, blending psychological horror with visceral survival action in a decaying European city.",
+    "titulo": "Resident Evil: Requiem",
+    "nota": 8.9,
+    "sinopse": "The story follows Grace Ashcroft, an FBI analyst investigating a series of mysterious deaths connected to survivors of the Raccoon City incident. Her investigation leads her to the Wrenwood Hotel—a location tied to her mother's murder—where she uncovers a terrifying, violent conspiracy. Her path crosses with legendary federal agent Leon S. Kennedy, who is working to stop a new bio-terrorism threat. Together, they navigate a dark, post-apocalyptic setting, dealing with themes of guilt and the trauma of past events.",
     "tags": ["Horror", "Survival", "First Person"],
-    "developer": "Capcom",
-    "publisher": "Capcom",
-    "release": "January 20, 2026",
-    "platforms": "PC, PS5, XSX",
+    "desenvolvedora": "Capcom",
+    "editora": "Capcom",
+    "lancamento": "January 20, 2026",
+    "plataformas": "PC, PS5, XSX",
     "screenshots": [
-      "../assets/img/re-requiem-1.jpg",
-      "../assets/img/re-requiem-2.jpg",
-      "../assets/img/re-requiem-3.jpg",
-      "../assets/img/re-requiem-4.jpg"
+      "../assets/img/re9.jpg",
+      "../assets/img/re9-2.png",
+      "../assets/img/re9-3.jpg",
+      "../assets/img/re9-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "Win 10", "cpu": "i5-8400", "ram": "8 GB", "gpu": "RTX 2060", "storage": "65 GB SSD" },
-      "recommended": { "so": "Win 11", "cpu": "i7-10700", "ram": "16 GB", "gpu": "RTX 4070", "storage": "65 GB NVMe" }
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-8400", "ram": "8 GB", "gpu": "RTX 2060", "armazenamento": "65 GB SSD" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-10700", "ram": "16 GB", "gpu": "RTX 4070", "armazenamento": "65 GB NVMe" }
     }
   },
   {
     "id": 11,
-    "title": "Onimusha: Warlords",
-    "rating": 9.2,
-    "synopsis": "The classic samurai hack-and-slash adventure reimagined for modern systems with updated controls and visuals.",
+    "titulo": "Onimusha: Warlords",
+    "nota": 9.2,
+    "sinopse": "The classic samurai hack-and-slash adventure reimagined for modern systems with updated controls and visuals.",
     "tags": ["Action", "Samurai", "Supernatural"],
-    "developer": "Capcom",
-    "publisher": "Capcom",
-    "release": "January 15, 2019",
-    "platforms": "PC, PS4, Xbox One, Switch",
+    "desenvolvedora": "Capcom",
+    "editora": "Capcom",
+    "lancamento": "January 15, 2019",
+    "plataformas": "PC, PS4, Xbox One, Switch",
     "screenshots": [
       "../assets/img/onimusha-1.jpg",
       "../assets/img/onimusha-2.jpg",
       "../assets/img/onimusha-3.jpg",
       "../assets/img/onimusha-4.jpg"
     ],
-    "requirements": {
-      "minimum": { "so": "Win 10", "cpu": "i5-4460", "ram": "4 GB", "gpu": "GTX 760", "storage": "12 GB" },
-      "recommended": { "so": "Win 11", "cpu": "i7-3770", "ram": "8 GB", "gpu": "GTX 960", "storage": "12 GB" }
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-4460", "ram": "4 GB", "gpu": "GTX 760", "armazenamento": "12 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-3770", "ram": "8 GB", "gpu": "GTX 960", "armazenamento": "12 GB" }
+    }
+  },
+  {
+    "id": 12,
+    "titulo": "Fatal Frame II: Crimson Butterfly REMAKE",
+    "nota": 9.5,
+    "sinopse": "A complete survival horror overhaul of the 2003 classic. Follow twin sisters Mio and Mayu through the haunted Minakami Village, using the upgraded Camera Obscura to survive vengeful spirits.",
+    "tags": ["Horror", "Survival", "Supernatural"],
+    "desenvolvedora": "Team NINJA",
+    "editora": "Koei Tecmo",
+    "lancamento": "March 12, 2026",
+    "plataformas": "PC, PS5, Xbox Series X/S, Switch 2",
+    "screenshots": [
+      "../assets/img/fatalframe-1.jpg",
+      "../assets/img/fatalframe-2.jpg",
+      "../assets/img/fatalframe-3.jpg",
+      "../assets/img/fatalframe-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 11", "cpu": "i5-8400", "ram": "16 GB", "gpu": "GTX 1050 Ti", "armazenamento": "30 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-8700", "ram": "16 GB", "gpu": "RTX 2060", "armazenamento": "30 GB" }
+    }
+  },
+  {
+    "id": 13,
+    "titulo": "Crimson Desert",
+    "nota": 9.0,
+    "sinopse": "An epic open-world action-adventure following Kliff, a mercenary struggling to survive and lead his comrades in the brutal continent of Pywel.",
+    "tags": ["Open World", "Action RPG", "Fantasy"],
+    "desenvolvedora": "Pearl Abyss",
+    "editora": "Pearl Abyss",
+    "lancamento": "March 19, 2026",
+    "plataformas": "PC, PS5, Xbox Series X/S, macOS",
+    "screenshots": [
+      "../assets/img/crimson-1.jpg",
+      "../assets/img/crimson-2.jpg",
+      "../assets/img/crimson-3.jpg",
+      "../assets/img/crimson-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-8500", "ram": "16 GB", "gpu": "GTX 1060", "armazenamento": "135 GB" },
+      "recomendados": { "so": "Win 10", "cpu": "i5-11600K", "ram": "16 GB", "gpu": "RTX 2080", "armazenamento": "135 GB" }
+    }
+  },
+  {
+    "id": 14,
+    "titulo": "Pragmata",
+    "nota": 8.8,
+    "sinopse": "A sci-fi action-adventure set on a lunar research station. Guide Hugh and his android companion Diana as they navigate a futuristic world using unique hacking and combat mechanics.",
+    "tags": ["Sci-Fi", "Action", "Adventure"],
+    "desenvolvedora": "Capcom",
+    "editora": "Capcom",
+    "lancamento": "April 24, 2026",
+    "plataformas": "PC, PS5, Xbox Series X/S, Switch 2",
+    "screenshots": [
+      "../assets/img/pragmata-1.jpg",
+      "../assets/img/pragmata-2.jpg",
+      "../assets/img/pragmata-3.jpg",
+      "../assets/img/pragmata-4.jpg"
+    ],
+    "requisitos": {
+      "minimos": { "so": "Win 10", "cpu": "i5-10400", "ram": "16 GB", "gpu": "GTX 1660 Super", "armazenamento": "60 GB" },
+      "recomendados": { "so": "Win 11", "cpu": "i7-12700", "ram": "16 GB", "gpu": "RTX 3070", "armazenamento": "60 GB" }
     }
   }
+
 ]
